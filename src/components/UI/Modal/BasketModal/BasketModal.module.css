@@ -1,0 +1,40 @@
+.modal {
+  position: fixed;
+  top: 80px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: none;
+  z-index: 1049;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.modal.Active {
+  display: flex;
+}
+
+.modalContent {
+  font-size: 18px;
+  color: black;
+  background-color: white;
+  width: 325px;
+  height: 540px;
+  position: fixed;
+  margin-right: 7%;
+  right: 0;
+  transition: linear .15s ease-in;
+  animation: transform 1s linear infinite;
+}
+
+@media screen and (max-width: 400px) {
+  .modalContent {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .modalContent {
+    width: 100%;
+    height: calc(100% - 80px);
+  }
+}

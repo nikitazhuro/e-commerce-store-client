@@ -1,0 +1,145 @@
+.mainBlockOfItem {
+  width: 100%;
+  height: auto;
+  margin-bottom: 35px;
+}
+
+.itemBlock {
+  width: 100%;
+  display: flex;
+  height: auto;
+  min-height: 100px;
+}
+
+.imageBlock {
+  width: 30%;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  display: flex;
+}
+
+.image img {
+  width: 100%;
+}
+
+.infoBlock {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.infoBlockTitle {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.price {
+  padding: 10px 0;
+}
+
+.price,
+.counter {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.attributes {
+  margin-top: 10px;
+}
+
+.counterBlock {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.size {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 25px;
+  height: 25px;
+  font-size: 14px;
+}
+
+.attributeTitleSmall {
+  margin: 0;
+  padding: 3px 0;
+  font-size: 12px;
+}
+
+.attributesElem_small_Active {
+  font-size: 12px;
+  font-weight: 400;
+  margin-right: 5px;
+  color: white;
+  padding: 3px 5px;
+  background-color: black;
+  border: 1px solid black;
+}
+
+.attributesElem_small {
+  font-size: 12px;
+  font-weight: 400;
+  margin-right: 5px;
+  padding: 3px 5px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.showAttributes {
+  margin-right: 5px;
+}
+
+.showAttributes:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.showAttributesBlock {
+  font-size: 14px;
+  width: fit-content;
+}
+
+.colorString {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.colorBlock {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.attributesBlock {
+  font-size: 12px;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 4px;
+}
+
+.counteChangeButton {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  font-size: 16px;
+  line-height: 120%;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.counteChangeButton:hover {
+  background-color: black;
+  color: white;
+}

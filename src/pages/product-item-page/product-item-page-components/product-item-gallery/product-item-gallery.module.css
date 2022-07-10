@@ -1,0 +1,31 @@
+.productItemGallery {
+  display: flex;
+  width: 10%;
+  overflow-y: auto;
+}
+
+.productItemGallery::-webkit-scrollbar {
+  width: 0;
+}
+
+.productItemImgList {
+  height: 0;
+  width: 100%;
+}
+
+.imgBlock {
+  margin-bottom: 20px;
+  display: flex;
+  width: 100%;
+  cursor: pointer;
+}
+
+.imgBlock img {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .productItemGallery {
+    display: none;
+  }
+}

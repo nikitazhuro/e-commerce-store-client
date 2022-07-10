@@ -1,0 +1,12 @@
+.itemList {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.itemListWrapper {
+  width: 100%;
+  height: 100%;
+  padding: 0 7%;
+}

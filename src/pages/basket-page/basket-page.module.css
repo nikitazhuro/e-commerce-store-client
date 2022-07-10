@@ -1,0 +1,30 @@
+.basketPage {
+  margin: 0 7%;
+  margin-top: 80px;
+}
+
+.basketListWrapper {
+  width: 86%;
+  height: 100%;
+  margin: 0 7%;
+  margin-top: 60px;
+}
+
+.basketList {
+  width: 100%;
+  height: 100%;
+  margin-top: 60px;
+}
+
+@media screen and (max-width: 576px) {
+  .basketList {
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+  }
+
+  .basketPage {
+    margin: 0 7%;
+    margin-top: 40px;
+  }
+}

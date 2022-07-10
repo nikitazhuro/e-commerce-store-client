@@ -1,0 +1,19 @@
+.basketListWrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.basketList {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.basketList::-webkit-scrollbar {
+  width: 0;
+}
+
+.itemName {
+  width: 100%;
+  height: 100%;
+}

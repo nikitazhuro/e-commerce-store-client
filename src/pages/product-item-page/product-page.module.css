@@ -1,0 +1,20 @@
+.itemElemContainer {
+  display: flex;
+  width: 100%;
+  padding: 0 7%;
+  height: calc(100vh - 80px);
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+
+@media screen and (max-width: 992px) {
+  .itemElemContainer {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .itemElemContainer {
+    display: block;
+  }
+}

@@ -1,0 +1,184 @@
+.basketPageItemBlock {
+  border-top: 1px solid gray;
+  padding: 20px 0;
+}
+
+.mainBlockOfItem {
+  width: 100%;
+  height: 100%;
+  border-top: 1px solid #E5E5E5;
+  padding: 20px 0;
+}
+
+.infoAndCounterBlock {
+  display: flex;
+  width: 75%;
+}
+
+.showAttributes {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.showAttributes:hover {
+  text-decoration: underline;
+}
+
+.showAttributesBlock {
+  width: fit-content;
+}
+
+.itemBlock {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.infoBlock {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.infoBlock a:hover {
+  text-decoration: underline;
+}
+
+.counterBlock {
+  width: 10%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.counterBlockContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.name {
+  font-weight: 400;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: 700;
+  padding: 20px 0;
+}
+
+.attributes {
+  margin-top: 20px;
+}
+
+.basketCarouselItem {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.basketCarouselItem img {
+  width: 100%;
+  object-fit: contain;
+  height: inherit;
+}
+
+.attributeTitleMedium {
+  margin: 0;
+  padding: 8px 0;
+  font-size: 16px;
+}
+
+.attributesElem_medium_Active {
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 12px;
+  color: white;
+  padding: 6px 12px;
+  background-color: black;
+  border: 1px solid black;
+}
+
+.attributesElem_medium {
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 12px;
+  padding: 6px 12px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.counteChangeButton {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  font-size: 16px;
+  line-height: 120%;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.counteChangeButton:hover {
+  background-color: black;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .image {
+    width: 35%;
+  }
+
+  .infoAndCounterBlock {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .mainBlockOfItem {
+    height: 100%;
+  }
+
+  .itemBlock {
+    display: block;
+    height: 100%;
+  }
+
+  .infoAndCounterBlock {
+    width: 100%;
+  }
+
+  .image {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .brand {
+    font-size: 24px;
+  }
+
+  .name {
+    font-size: 24px;
+  }
+
+  .price {
+    font-size: 18px;
+    padding: 20px 0;
+  }
+}

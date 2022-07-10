@@ -1,0 +1,27 @@
+.categoryTitle {
+  font-size: 42px;
+}
+
+.categoryTitleWrapper {
+  text-transform: uppercase;
+  padding: 80px 7% 103px;
+}
+
+@media screen and (max-width: 992px) {
+  .categoryTitleWrapper {
+    padding: 70px 7% 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .categoryTitleWrapper {
+    padding: 60px 7% 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .categoryTitleWrapper {
+    font-size: 32px;
+    padding: 40px 7% 20px;
+  }
+}

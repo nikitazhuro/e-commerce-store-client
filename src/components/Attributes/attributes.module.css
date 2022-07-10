@@ -1,0 +1,65 @@
+.attributeColor {
+
+  width: 30px;
+  height: 30px;
+}
+
+.attributeColorModal {
+  width: 20px;
+  height: 20px;
+}
+
+.attributeColorWrapper {
+  padding: 2px;
+  margin-right: 5px;
+  border: 1px solid transparent
+}
+
+.attributeColorWrapper_canSelect {
+  padding: 2px;
+  margin-right: 5px;
+  border: 1px solid transparent
+}
+
+.attributeColorWrapper_canSelect:hover {
+  border: 1px gold solid;
+}
+
+.brandName {
+  margin-bottom: 16px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.attributeTitle {
+  font-size: 18px;
+  margin-bottom: 7px;
+}
+
+.attributeListCanChoose {
+  cursor: pointer;
+  display: flex;
+  margin-bottom: 24px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.attributeList {
+  display: flex;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.priceName {
+  margin: 40px 0 20px 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.addBtn {
+  margin: 30px 0 40px 0;
+}
+
+.outOfStock {
+  opacity: 0.5;
+}

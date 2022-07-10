@@ -1,0 +1,72 @@
+.navBar {
+  height: 80px;
+  width: 100%;
+}
+
+.navBarcontent {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: inherit;
+}
+
+.navBarContentCategories {
+  display: flex;
+}
+
+.navBarWrapper {
+  z-index: 1000;
+  position: fixed;
+  padding: 0 7%;
+  width: 100%;
+  height: inherit;
+}
+
+.navBarContentCategories .item {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  padding: 24px 16px 30px;
+}
+
+.navBarContentCategories .item_Active {
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 24px 16px 30px;
+  border-bottom: 2px solid #5ece7b;
+  color: #5ece7b;
+}
+
+.navBarContentLogo {
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 41px;
+  height: 41px;
+}
+
+@media screen and (max-width: 768px) {
+  .navBarContentLogo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .navBarContentCategories .item {
+    padding: 24px 8px 30px;
+    font-size: 12px;
+  }
+
+  .navBarContentCategories .item_Active {
+    padding: 24px 8px 30px;
+    font-size: 14px;
+  }
+}
