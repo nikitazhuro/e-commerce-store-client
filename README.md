@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Test task on React - e-commerce store.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+You can test it here: [https://e-commerce-store-client.web.app](https://e-commerce-store-client.web.app).
 
-In the project directory, you can run:
+## Technologies:
 
-### `npm start`
+### Frontend:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
++ react, react-dom, react-router-dom,
++ redux, redux-thunk,
++ graphql (apollo/client),
++ linter - eslint.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Client part was deployed on firebase.
 
-### `npm test`
+### Backend (node.js):
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Backend was provided by the employer
 
-### `npm run build`
+Server part was deployed on heroku.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Project description: 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Ecommerce store. Design was provided by the employer in figma.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The client part consists of several pages, which you can see further in the screenshots. Redux is used as the state-manager. There is a list of categories, adding and removing products from the basket, currency calc, bag card.
 
-### `npm run eject`
+Caregory page:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![image](https://user-images.githubusercontent.com/84069087/178342088-bc95f5e6-3e64-404c-949e-23a9a790604f.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Bag card:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![image](https://user-images.githubusercontent.com/84069087/178342443-ab4a16d6-7f79-4ba7-9a6b-db5938b41d56.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Good page:
 
-## Learn More
+![image](https://user-images.githubusercontent.com/84069087/178342234-3bd9da08-e5d6-4688-8cd1-c5c0387d2caf.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Basket page:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![image](https://user-images.githubusercontent.com/84069087/178342612-0a81cd11-4d36-4c7b-a2e1-fccbfda3cece.png)
 
-### Code Splitting
+## How to start:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Clone server and client repositories,
+2. Install all dependencies in server and client directories with: `npm i`,
+8. To start server you should run `npm run build` and then `npm start`, then do the same for client,
+9. Run `http://localhost:8080` in browser.
 
-### Analyzing the Bundle Size
+## Demonstration: 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://user-images.githubusercontent.com/84069087/178343238-90c14055-4a40-4970-a0d3-2f8743a3f8aa.mp4
