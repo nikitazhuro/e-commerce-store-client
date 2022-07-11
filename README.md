@@ -45,7 +45,7 @@ Basket page:
 
 ## How to start:
 
-1. Clone server and client repositories,
+1. Clone server and client repositories (serverRep - [https://github.com/nikitazhuro/e-commerce-store-server](https://github.com/nikitazhuro/e-commerce-store-server)),
 2. Install all dependencies in server and client directories with: `npm i`,
 8. To start server you should run `npm run build` and then `npm start`, then do the same for client,
 9. Run `http://localhost:8080` in browser.
