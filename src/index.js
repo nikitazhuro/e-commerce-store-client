@@ -12,7 +12,7 @@ const deployUrl = 'https://e-commerce-store-server.herokuapp.com/graphql';
 const localUrl = 'http://localhost:4000/graphql';
 
 const client = new ApolloClient({
-  uri: deployUrl,
+  uri: localUrl,
   cache: new InMemoryCache(),
 });
 export default client;
