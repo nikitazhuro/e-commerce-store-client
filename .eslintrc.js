@@ -25,6 +25,7 @@ module.exports = {
     'import/no-cycle': 0,
     'react/prop-types': 'off',
     'react/no-danger': 'off',
+    'linebreak-style': 0,
 
     'react/jsx-props-no-spreading': 'off',
   },
